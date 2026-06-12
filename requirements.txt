@@ -1,0 +1,26 @@
+# Dependencias del proyecto: Reto Horno Fusor de Aluminio
+# Instalar con: pip install -r requirements.txt
+
+# Manejo de datos
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualización
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Machine Learning clásico (clustering, PCA, escalado, métricas)
+scikit-learn>=1.3.0
+
+# Optimización / ajuste de curvas (FOPDT)
+scipy>=1.10.0
+
+# Deep Learning (LSTM y CNN)
+torch>=2.0.0
+
+# Predicción de series de tiempo
+prophet>=1.1.5
+
+# Entorno de notebooks
+jupyter>=1.0.0
+notebook>=7.0.0
