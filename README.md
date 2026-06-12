@@ -25,18 +25,18 @@ Ambos modelos se comparan en términos de polos, ceros, estabilidad, error en es
 .
 ├── README.md
 ├── requirements.txt
-├── dataset_horno_fusor2.csv          # Dataset proporcionado por RONAL Group (21,600 muestras)
-├── EDA_horno_fusor.ipynb             # Análisis exploratorio de datos
-├── clustering_FINAL_horno.ipynb      # PCA + K-Means: regímenes de operación del horno
-├── lstm_horno.ipynb                  # Modelo preliminar de Deep Learning (LSTM) y ajuste FOPDT
-└── prophet_modelo_control__3_.ipynb  # Modelo preliminar Prophet y extracción de coeficientes
+├── dataset_horno_fusor2.csv           # Dataset proporcionado por RONAL Group (21,600 muestras)
+├── EDA_horno_fusor.ipynb              # Análisis exploratorio de datos
+├── clustering_FINAL_horno.ipynb       # PCA + K-Means: regímenes de operación del horno
+├── lstm_horno.ipynb                   # Modelo preliminar de Deep Learning (LSTM) y ajuste FOPDT
+└── prophet_modelo_control__3_.ipynb   # Modelo preliminar Prophet y extracción de coeficientes
 ```
 
 > **Nota:** la implementación de la CNN-1D, el diagrama de bloques en Simulink y las simulaciones de control clásico/PID se describen en el informe (`Reto_final_control.pdf`), pero no se incluyen como notebooks en este repositorio. Si se generan los archivos correspondientes (p. ej. `cnn_horno.ipynb`, `control_clasico.slx` o equivalentes en Python/`control`), deberán colocarse en la raíz del proyecto y agregarse aquí.
 
 ### 2.1 Dataset
 
-El archivo `dataset_horno_fusor2.csv` debe colocarse en la raíz del proyecto (mismo nivel que los notebooks) y contiene las siguientes columnas:
+El archivo `dataset_horno_fusor2.csv` se incluye en la raíz del proyecto (mismo nivel que los notebooks) y contiene 21,600 muestras con las siguientes columnas:
 
 | Columna | Descripción |
 |---|---|
